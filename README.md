@@ -57,6 +57,18 @@ We suggest to use the ImageDataGenerator as we have seen during lessons to load 
 
 Please notice that no automatic validation set is provided.
 
+### Evaluation
+The metric used to evaluate models and place the Teams in Leadeboard is the Mean Accuracy. 
+
+The score is computed as MeanAccuracy where N is the total number of images in the test set.
+
+$\sum_{i=1}^N t_i$ * $frac{predictions_i = targets_i}{N}$
+
+We organized the homework as a two-phases competition:
+
+- Phase 1: development phase. We provide you with labeled training data. Your submissions will be evaluated on an hidden test set. 
+- Phase 2: final phase. Your submissions will be evaluated on an final hidden test set (different from the one of Phase 1).
+
 
 ## Results
  Phase| Mean Accuracy| Apple Mean Accuracy| Blueberry Mean Accuracy| Cherry Mean Accuracy| Corn Mean Accuracy| Grape Mean Accuracy| Orange Mean Accuracy| Peach Mean Accuracy| Pepper Mean Accuracy| Potato Mean Accuracy| Raspberry Mean Accuracy| Soybean Mean Accuracy| Squash Mean Accuracy| Strawberry Mean Accuracy| Tomato Mean Accuracy| Healthy Mean Accuracy| Unhealthy Mean Accuracy| Wild Mean Accuracy|
