@@ -62,7 +62,7 @@ The metric used to evaluate models and place the Teams in Leadeboard is the Mean
 
 The score is computed as MeanAccuracy where N is the total number of images in the test set.
 
-$\sum_{i=1}^N t_i$ * $frac{predictions_i = targets_i}{N}$
+$$\sum_{i=1}^N t_i * \frac{predictions_i = targets_i}{N}$$
 
 We organized the homework as a two-phases competition:
 
@@ -78,13 +78,15 @@ Final| 0.9434 | 1.0000 | 0.9200 | 0.8667 | 1.0000 | 1.0000 | 0.8800 | 0.9333 | 0
 
 ## Challenge 2: Time Series Forecasting
 
+Welcome to the second Homework of the Artificial Neural Networks and Deep Learning course! You have the opportunity to test what you learned during the course. We set up a competition to make things more fun! 😎
+
 In this homework, you are required to predict future samples of a multivariate time series. The goal is to design and implement forecasting models to learn how to exploit past observations in the input sequence to correctly predict the future. 
 
 
 ### Dataset Details:
 We provide a training multivariate time series with the following characteristics
 
-Length of the time series (number of samples in the training set):   68528
+Length of the time series (number of samples in the training set):  68528
 
 Number of features: 7
 
@@ -99,4 +101,13 @@ The provided dataset is in '.csv' format and can be downloaded [here](https://dr
 ### Results
  RMSE  | MAE  | Sponginess RMSE  | Wonder Level RMSE | Crunchiness RMSE | Loudness on Impact RMSE | Meme Creativity RMSE | Soap Slipperiness RMSE | Hype Root RMSE | First Quarter RMSE | Second Quarter RMSE | Third Quarter RMSE | Fourth Quarter RMSE |
  |-|-|-|-|-|-|-|-|-|-|-|-|-|
- 3.7042 | 2.3823  | 1.9088  | 1.8086  | 6.4420  | 1.3604  | 0.7890  | 2.6788 | 6.1630 | 3.7786  | 3.5216  | 3.8056  | X  | 
+ 3.7042 | 2.3823  | 1.9088  | 1.8086  | 6.4420  | 1.3604  | 0.7890  | 2.6788 | 6.1630 | 3.7786  | 3.5216  | 3.8056  | not used  | 
+ 
+ ### Evaluation
+ The metric used to evaluate models and place the Teams in Leaderboard is the Root Mean Squared Error (RMSE). The score is computed as:
+
+$$ \sqrt{\sum_{i=1}^n \frac{(\hat{y_i} - y_i)^2}{n}}$$
+
+where n is the total number of samples in the test prediction window. Being multivariate forecasting, the total RMSE is computed considering all the samples in the test window from all the features in the multivariate problem.
+
+Your submissions will be evaluated instead on the hidden test set.
