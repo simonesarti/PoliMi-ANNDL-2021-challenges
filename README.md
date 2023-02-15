@@ -70,7 +70,7 @@ We organized the homework as a two-phases competition:
 - Phase 2: final phase. Your submissions will be evaluated on an final hidden test set (different from the one of Phase 1).
 
 
-## Results
+### Results
  Phase| Mean Accuracy| Apple Mean Accuracy| Blueberry Mean Accuracy| Cherry Mean Accuracy| Corn Mean Accuracy| Grape Mean Accuracy| Orange Mean Accuracy| Peach Mean Accuracy| Pepper Mean Accuracy| Potato Mean Accuracy| Raspberry Mean Accuracy| Soybean Mean Accuracy| Squash Mean Accuracy| Strawberry Mean Accuracy| Tomato Mean Accuracy| Healthy Mean Accuracy| Unhealthy Mean Accuracy| Wild Mean Accuracy|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 Development| 0.9623 | 0.9556 | 0.9200 | 0.8889 | 1.0000 | 0.9778 | 0.9600 | 1.0000 | 0.9556 | 0.9778 | 1.0000 | 0.9200 | 0.9200 | 0.9778 | 0.9778 | 0.9964 | 1.0000 | 0.7286 |
@@ -98,11 +98,6 @@ Please notice that no automatic validation set is provided.
 
 The provided dataset is in '.csv' format and can be downloaded [here](https://drive.google.com/drive/folders/14YIaBj7Hm9wjqc8notvB0gW4V8PHO8mR?usp=sharing).
 
-### Results
- RMSE  | MAE  | Sponginess RMSE  | Wonder Level RMSE | Crunchiness RMSE | Loudness on Impact RMSE | Meme Creativity RMSE | Soap Slipperiness RMSE | Hype Root RMSE | First Quarter RMSE | Second Quarter RMSE | Third Quarter RMSE | Fourth Quarter RMSE |
- |-|-|-|-|-|-|-|-|-|-|-|-|-|
- 3.7042 | 2.3823  | 1.9088  | 1.8086  | 6.4420  | 1.3604  | 0.7890  | 2.6788 | 6.1630 | 3.7786  | 3.5216  | 3.8056  | not used  | 
- 
  ### Evaluation
  The metric used to evaluate models and place the Teams in Leaderboard is the Root Mean Squared Error (RMSE). The score is computed as:
 
@@ -111,3 +106,8 @@ $$ \sqrt{\sum_{i=1}^n \frac{(\hat{y_i} - y_i)^2}{n}}$$
 where n is the total number of samples in the test prediction window. Being multivariate forecasting, the total RMSE is computed considering all the samples in the test window from all the features in the multivariate problem.
 
 Your submissions will be evaluated instead on the hidden test set.
+
+### Results
+ RMSE  | MAE  | Sponginess RMSE  | Wonder Level RMSE | Crunchiness RMSE | Loudness on Impact RMSE | Meme Creativity RMSE | Soap Slipperiness RMSE | Hype Root RMSE | First Quarter RMSE | Second Quarter RMSE | Third Quarter RMSE | Fourth Quarter RMSE |
+ |-|-|-|-|-|-|-|-|-|-|-|-|-|
+ 3.7042 | 2.3823  | 1.9088  | 1.8086  | 6.4420  | 1.3604  | 0.7890  | 2.6788 | 6.1630 | 3.7786  | 3.5216  | 3.8056  | not used  | 
