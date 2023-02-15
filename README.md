@@ -1,4 +1,4 @@
-# PoliMi ***Artificial Neural Networks and Deep Learning*** 2021 course challenges
+# PoliMi ***Artificial Neural Networks and Deep Learning*** 2021 course challenges: Image Classification and Time Series Forecasting
 
 ## Challenge 1: Image Classification
 
