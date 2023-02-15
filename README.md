@@ -72,7 +72,7 @@ We organized the homework as a two-phases competition:
 
 ### Results
  Phase| Mean Accuracy| Apple Mean Accuracy| Blueberry Mean Accuracy| Cherry Mean Accuracy| Corn Mean Accuracy| Grape Mean Accuracy| Orange Mean Accuracy| Peach Mean Accuracy| Pepper Mean Accuracy| Potato Mean Accuracy| Raspberry Mean Accuracy| Soybean Mean Accuracy| Squash Mean Accuracy| Strawberry Mean Accuracy| Tomato Mean Accuracy| Healthy Mean Accuracy| Unhealthy Mean Accuracy| Wild Mean Accuracy|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 Development| 0.9623 | 0.9556 | 0.9200 | 0.8889 | 1.0000 | 0.9778 | 0.9600 | 1.0000 | 0.9556 | 0.9778 | 1.0000 | 0.9200 | 0.9200 | 0.9778 | 0.9778 | 0.9964 | 1.0000 | 0.7286 |
 Final| 0.9434 | 1.0000 | 0.9200 | 0.8667 | 1.0000 | 1.0000 | 0.8800 | 0.9333 | 0.9556 | 0.9333 | 1.0000 | 0.8000 | 0.8400 | 0.9556 | 1.0000 | 0.9893 | 0.9889 | 0.6429 |
 
@@ -109,5 +109,5 @@ Your submissions will be evaluated instead on the hidden test set.
 
 ### Results
  RMSE  | MAE  | Sponginess RMSE  | Wonder Level RMSE | Crunchiness RMSE | Loudness on Impact RMSE | Meme Creativity RMSE | Soap Slipperiness RMSE | Hype Root RMSE | First Quarter RMSE | Second Quarter RMSE | Third Quarter RMSE | Fourth Quarter RMSE |
- |-|-|-|-|-|-|-|-|-|-|-|-|-|
+ |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
  3.7042 | 2.3823  | 1.9088  | 1.8086  | 6.4420  | 1.3604  | 0.7890  | 2.6788 | 6.1630 | 3.7786  | 3.5216  | 3.8056  | not used  | 
